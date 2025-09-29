@@ -19,6 +19,7 @@ Se utiliza **PostgreSQL** para la persistencia de datos mediante **TypeORM**.
 
 ### Clonar el repositorio
   git clone https://github.com/semoate/api-pedidos.git
+  
   cd api-pedidos
 
 
