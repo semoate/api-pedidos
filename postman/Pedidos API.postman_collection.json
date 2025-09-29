@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "4c371162-3023-4c8f-8311-af6e706021af",
+		"name": "Pedidos API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18745272",
+		"_collection_link": "https://orange-astronaut-530003.postman.co/workspace/New-Team-Workspace~81562347-0710-4ed3-be8a-4a124cf986fb/collection/18745272-4c371162-3023-4c8f-8311-af6e706021af?action=share&source=collection_link&creator=18745272"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/pedidos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pedidos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pedidos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/pedidos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n  \"cliente\": \"jhon doe19\",\r\n  \"origen\": \"medellin\",\r\n  \"destino\": \"bogota\",\r\n  \"mercancia\": \"ropa\",\r\n  \"pesoKg\": 10,\r\n  \"estado\": \"EN_TRANSITO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pedidos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pedidos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/pedidos/9d8500bd-7cbf-447f-a28d-20f4d34f0a38",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pedidos/9d8500bd-7cbf-447f-a28d-20f4d34f0a38",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pedidos",
+						"9d8500bd-7cbf-447f-a28d-20f4d34f0a38"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
