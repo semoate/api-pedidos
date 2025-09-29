@@ -18,8 +18,9 @@ Se utiliza **PostgreSQL** para la persistencia de datos mediante **TypeORM**.
 # 3. Instalación
 
 ### Clonar el repositorio
-  git clone <repo_url>
-  cd <nombre_proyecto>
+  git clone https://github.com/semoate/api-pedidos.git
+  cd api-pedidos
+
 
 ### Instalar dependencias
 npm install
