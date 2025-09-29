@@ -15,7 +15,7 @@ Se utiliza **PostgreSQL** para la persistencia de datos mediante **TypeORM**.
 
 ---
 
-## 3. Instalación
+# 3. Instalación
 
 ### Clonar el repositorio
   git clone <repo_url>
